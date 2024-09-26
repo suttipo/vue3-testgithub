@@ -1,0 +1,20 @@
+
+1 Create new folder for git
+2 Create file or project
+3 And to do in below
+
+or create a new repository and push on the command line
+
+echo "# vue3-testgithub" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/suttipo/vue3-testgithub.git
+git push -u origin main
+
+or push an existing repository from the command line
+
+git remote add origin https://github.com/suttipo/vue3-testgithub.git
+git branch -M main
+git push -u origin main
